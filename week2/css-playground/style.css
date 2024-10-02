@@ -1,0 +1,14 @@
+/* 
+order of precedence
+1. inline styles
+2. internal styles
+3. external styles
+
+caviat: !important will override any precedence (should only use for debugging)
+ */
+
+p {
+    /* all p tags styled with purple */
+    color: purple;
+    background-color: orange;
+}
