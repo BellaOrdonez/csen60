@@ -6,9 +6,21 @@ order of precedence
 
 caviat: !important will override any precedence (should only use for debugging)
  */
+ /* html tag selectors */
+ body {
+    background-color: #1c87c9;
+  }
 
-p {
-    /* all p tags styled with purple */
-    color: purple;
-    background-color: orange;
+  p {
+    color: purple ;
+    /* background-color: orange*/
+  }
+
+/* class selector */
+.middle-p {
+    color: red
+}
+/* id selector */
+#new-id{
+
 }
