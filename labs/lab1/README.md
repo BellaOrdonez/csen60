@@ -6,13 +6,18 @@
 
 ## Part 1
 Chosen webpage: *website url*
+https://animalcare.lacounty.gov/about-the-department/
 
 ### 1a
 
 5 block elements:
 
 ```
-<a href="https://github.dev/" class="d-none js-github-dev-new-tab-shortcut" data-hotkey="Shift+.,Shift+>,>" target="_blank" rel="noopener noreferrer">Open in a new github.dev tab</a>
+<header id="grve-header" class="grve-fullwidth" data-sticky="none" data-sticky-height="60" data-devices-sticky="yes">
+```
+```
+<div id="grve-feature-section" data-height="550" style="background-color: #000000;" class="grve-with-image grve-custom-size grve-with-spinner">
+```
 ```
 
 ### 1b

@@ -4,8 +4,11 @@ order of precedence
 2. internal styles
 3. external styles
 
-caviat: !important will override any precedence (should only use for debugging)
- */
+/* caviat: !important will override any precedence (should only use for debugging) */
+
+ html {
+        font-family: Arial, sans-serif;
+ }
  /* html tag selectors */
  body {
     background-color: #1c87c9;
@@ -18,9 +21,11 @@ caviat: !important will override any precedence (should only use for debugging)
 
 /* class selector */
 .middle-p {
-    color: red
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: underline;
 }
 /* id selector */
-#new-id{
-
+#main-text{
+    line-height: 30px;
 }
