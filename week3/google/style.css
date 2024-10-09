@@ -12,10 +12,8 @@ ul {
     gap: 16px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 /* box model? */
 button {
