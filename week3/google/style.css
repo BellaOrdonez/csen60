@@ -41,8 +41,9 @@ main {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    /* flex-direction: column;
+    justify-content: space-between; */
     height: 100vh;
 }
