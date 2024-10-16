@@ -1,0 +1,25 @@
+nav li {
+
+   text-align: right;
+   
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  article {
+    flex: 0 0 30%;
+    min-width: 80ch;
+    max-width: 80ch;
+  }
+
+  /* footer {
+    justify-content: space-between;
+
+  } */
+
+ 
