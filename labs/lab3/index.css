@@ -1,15 +1,7 @@
 body {
-   display: flex;
-   width: 100vw;
-   height: 100vh;
-\}
-
- figure {
     display: flex;
-    justify-content: center;
-}
-
-body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +10,14 @@ body{
 }
 
 aside {
-    background-color: var(accent-background);
-    max-width: 35rem;
+    background-color: var(--accent-background);
+    height: 50rem;
+    max-width: 25rem;
+    min-width: 25rem;
+}
+
+aside figcaption {
+    margin-left: 23px;
 }
 
 h1 {
@@ -45,7 +43,11 @@ img.profile {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+    margin-top: 9rem;
+    margin-left: 3rem;
+
 }
+
 
 article {
     text-align: left;
@@ -81,4 +83,11 @@ h1 {
 
 nav {
     background-color: white;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
 }
+
+
+
+
