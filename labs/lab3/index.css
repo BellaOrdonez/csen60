@@ -56,7 +56,7 @@ article {
 }
 
 article header {
-    padding-right: 35rem;
+    padding-right: 45rem;
 }
 
 article footer {
@@ -87,6 +87,7 @@ nav {
     justify-content: end;
     gap: 20px;
 }
+
 
 
 
