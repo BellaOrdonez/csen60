@@ -6,7 +6,7 @@ function addTodo() {
   console.log("Input value =", input.value)
 }
 
-const list = document.querySelector("ul")
+const ul = document.querySelector("ul")
 //const list = list[0]
 console.log(ul)
 
