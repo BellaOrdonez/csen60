@@ -48,7 +48,16 @@
     - for passwords person informatiojn
     - HTTPS is more secure
 
+- Secure Socket Layer
+    - SSL provifes secure commmunication between a cluent ans server by using :
+        - server abd client digital certificates for authentication etc.
 
+- How does it know its secure?
+    - Digital Certificate
+        - a form of a an asymmertric key
+
+- Certificate Autority
+    - trusted third party for security authentication 
 
 
 ## Privacy
@@ -56,12 +65,55 @@
 - Cookies
     - is a name/value pair created by a website to store information on your computer
 
+-  Data Collection: Form/User Entry
+    - social networks
+        - share info with others, connect with frineds
+    - online shopping
+        - credit card payments, home address for shipping
+    - online finances
+        - banking, investmnets, tax
+
 - Data Collection: Cookies
     - user authentication
-    sute preferencescontecnts of shopping cat
+    -sute preferencescontecnts of shopping cat
+
+- Data Collection: Behavior Logging
+    - any action a user takes on a webpage can be logged
+    - HTML event listneres
+    - time between actions
+
+- Data Applications: Ad Trackiing
+    - how are all theses products free?
+        - facebook, twitte, google, youtube
+    - goal: convert an ad seen on screen to some action
+    - better targeted the ad, the better chnace of a concersion ($$)
+
+- Data Applications: Search
+    - improve results
+
+- Data Applications: Drive a metirc
+    - 
+- Lots of Sensitive information
+    - PII: Personallu Identifiable Informaation
+    - financial information
+    - legally Sensitive
 
 - Pricavy Policy
     - generally considered legally binding
     - statement daying what the website does with nay information it collects
     - written in dense legal language
     - 
+
+- Role of PP
+    - Specify what an appplication can do with the unfoamtion
+
+- Developer - Legal Responsibiliy
+    - privacy has legal implications
+    - developer is respinible for breaches of Policy
+
+- GDPR
+    - Gneral Data Protection regulation
+    - protects citixans of European unfoamtion
+    - user must provide consent
+    - consumers have the right to be "forgotten"
+
